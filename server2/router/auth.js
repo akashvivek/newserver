@@ -9,9 +9,6 @@ const cookieParser =require("cookie-parser");
 
 router.use(cookieParser());
 
-router.get("/", (req, res) => {
-  res.send("hello");
-});
 
 //using promises
 // router.post("/register", (req, res) => {
